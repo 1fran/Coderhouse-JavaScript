@@ -3,9 +3,9 @@
 let ingresarNombre = prompt  ("ingresar un nombre para recibir saludos");
 
 while (ingresarNombre != "Basta" ) {
-    
+    // for (i = 0 ; true ; i++)
     alert("¡hola " + ingresarNombre + "!");
-    ingresarNombre = prompt  ("ingresar otro nombre para recibir más saludos");
+    ingresarNombre = prompt  ("otro nombre para más saludos");
     
 }
-alert ("demasiados saludos")
+alert ("demasiados saludos por hoy")
